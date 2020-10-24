@@ -145,7 +145,7 @@ class MovieDetailState extends State<MovieDetail> {
   var movie;
 
   void load() async {
-    final String key = '0a7200568417cd813479269673833592';
+    final String key = '1b954119e4c9a65520ffa9295aeeb89d';
     String url = 'https://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieInfo.json';
     url += '?key=$key';
     url += '&movieCd=${widget.code}';
